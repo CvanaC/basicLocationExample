@@ -83,7 +83,8 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
 
         if (!checkPermissions()) {
-            //requestPermissions();
+           //CODE CHANGE HERE
+            requestPermissions();
         } else {
             getLastLocation();
         }
